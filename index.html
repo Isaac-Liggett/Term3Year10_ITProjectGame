@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang="en"><head><style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+  }
+  canvas {
+    display: center;
+  }
+
+  
+  .topnav {
+    background-color: #444;
+    overflow: hidden;
+    user-select: none;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+</style>
+
+  
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    </head><body><div class="topnav">
+      <a class="active">Solitaire</a>
+      <a onclick="newGame();">New Game</a>
+      <a id="score"></a>
+      <a> <div id="stopwatch" style="color: white;"></div></a>
+      <div style="float: right;">
+        <a onclick="if(scene != null &amp;&amp; scene != undefined){scene.col = '#15754d';}">Green</a>
+        <a onclick="if(scene != null &amp;&amp; scene != undefined){scene.col = '#3613ab';}">Blue</a>
+        <a onclick="if(scene != null &amp;&amp; scene != undefined){scene.col = '#791991';}">Purple</a>
+        <a onclick="if(scene != null &amp;&amp; scene != undefined){scene.col = '#bd1934';}">Red</a>
+      </div>
+    </div>
+  
+  
+    <script src="particles.js"></script>
+    <script src="suiteDeposit.js"></script>
+    <script src="spareDeck.js"></script>
+    <script src="rowPlaceholder.js"></script>
+    <script src="card.js"></script>
+    <script src="scene.js"></script>
+    <script src="sketch.js"></script>
+  
+
+</body></html>
