@@ -1,0 +1,3 @@
+# Term3Year10_ITProjectGame
+
+This was a project that i made for my Digital Solutions Assessment in Term 3 of Year 10 2021. I was tasked with generating a digital solution for a problem of our chosing from a set of pre-created problems and users. The user and problem that i chose was an old man who was bored in a nursing home and had limited technological skills, but could use a computer with Windows 10. The requirements also included that the man had slow reaction time, thus limiting our choices in our digital solution. Extending upon our javascript and p5js knowledge which was covered in the term, i opted with making a game of Solitaire. The marking was based on a design document in which i scored 100% for and topped the class.
